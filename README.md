@@ -50,7 +50,7 @@ Third-party partitioned cookies will be available by default, and `SameSite=None
 
 When a user right-clicks on a download link that presents a context menu item for downloading the resource, that download will also be treated as a subresource request if the `<a>` tag has the new attribute.
 
-<img src="./img/ctx-menu.png" width="400px">
+<img src="./img/ctx-menu.png" width="400px" style="border:1px solid #000;">
 <br>
 <caption> Clicking "Save Link As…" will trigger a download for the resource </caption>
 
