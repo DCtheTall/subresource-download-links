@@ -85,7 +85,7 @@ We chose to do so because the site hosting the content for download may not be c
 A possible polyfill for a subresource download would be to have a JavaScript click event listener call the following code:
 
 ```javascript
-async function onDonwloadLinkClick() {
+async function onDownloadLinkClick() {
   const resp = await fetch('./path/to/file.ext');
   const blob = await resp.blob();
   const picker = await window.showSaveFilePicker();
